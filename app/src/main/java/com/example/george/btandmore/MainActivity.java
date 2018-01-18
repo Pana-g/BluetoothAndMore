@@ -48,20 +48,15 @@ import java.util.HashMap;
 
 
 public class MainActivity extends AppCompatActivity {
-    TextView textView1;
-    EditText editText1;
-    ScrollView scrollView1;
-    Button sendButton;
-    public static boolean isRecursionEnable = false;
+    private TextView textView1;
+    private EditText editText1;
+    private Button sendButton;
     private Bluetooth bluetooth;
-    ListView listView;
+    private ListView listView;
     private BtDevicesAdapter btDevicesAdapter;
-    LinearLayout list_layout;
-   // LinearLayout linearLayout;
-    Button returnButton,scanButton;
+    private LinearLayout list_layout;
+    private Button returnButton,scanButton;
     private BtHashMap bluetoothDevices;
-    ProgressBar progressBar;
-    //ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
