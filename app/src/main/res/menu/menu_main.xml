@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.george.btandmore.MainActivity">
+    <item
+        android:id="@+id/secure_connection"
+        android:orderInCategory="100"
+        android:title="Secure Connection" />
+    <item
+        android:id="@+id/insecure_connections"
+        android:orderInCategory="101"
+        android:title="Insecure Connction" />
+    <item
+    android:id="@+id/disconnect"
+    android:orderInCategory="102"
+    android:title="Disconnect" />
+</menu>

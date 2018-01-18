@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:ndroid="http://schemas.android.com/apk/res-auto"
+    android:visibility="invisible"
+    android:layout_marginHorizontal="60dp"
+    android:layout_marginBottom="70dp"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    android:background="@drawable/linear_list"
+    android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:windowSoftInputMode="adjustResize"
+            android:layout_weight="1"
+            android:smoothScrollbar="true"
+            android:scrollbars="vertical">
+
+        </ListView>
+
+
+        <Button
+            android:id="@+id/scan_button"
+            android:layout_width="match_parent"
+            android:minHeight="1dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Start scanning"
+            android:textSize="21dp"
+            android:textColor="@color/colorWhite"
+            android:textAlignment="center"
+            android:background="@drawable/custom_button1" />
+
+        <Button
+            android:id="@+id/return_button"
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:minHeight="1dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="21dp"
+            android:textColor="@color/colorWhite"
+            android:textAlignment="center"
+            android:background="@drawable/custom_button"/>
+
+
+</LinearLayout>
